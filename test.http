@@ -1,0 +1,4 @@
+POST http://localhost:4004/dev-challenge/Tests(ID=8886cd0e-82b4-4e9b-b195-e19571a524ef,IsActiveEntity=true)/DevChallengeService.assignQuestionsToTest
+Content-Type: application/json
+
+{"questionsCount":3}
