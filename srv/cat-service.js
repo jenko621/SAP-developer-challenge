@@ -7,13 +7,13 @@ module.exports = class DevChallengeService extends cds.ApplicationService {
  
     async assignQuestionsToTest(Tests, keys, questionsCount) {
 		if (questionsCount < 1) {
-			return "At least the questionsCount should be 1.";
+			return "At least the number of questions must be 1.";
 		}
 
 		const { Questions } = cds.entities;
 		const questions = await SELECT.from(Questions).where({ test_ID: null });
 		if (!questions.length) {
-			return "No questions without an test associated.";
+			return "No questions without associated test.";
 		}
 
 		let count = 0;
