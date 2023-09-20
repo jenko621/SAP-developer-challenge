@@ -1,3 +1,7 @@
-ID,title,createdAt,createdBy,modifiedAt,modifiedBy
-ac5607e0-5796-11ee-8c99-0242ac120002,Name,2023-09-06T22:28,,2023-09-06T22:28,
-ac560948-5796-11ee-8c99-0242ac120002,Name,2023-10-06T22:29,,2023-12-06T22:29,
+ID,title,description,createdAt,createdBy,modifiedAt,modifiedBy
+ac5607e0-5796-11ee-8c99-0242ac120002,Developer Challenge Three,Week Three - Front-end Development with SAP Fiori elements,2023-10-06T22:29,anon
+ac560948-5796-11ee-8c99-0242ac120002,Developer Challenge Six,Week Six - Front-end Development with SAP Fiori elements,2023-10-06T22:29,anon,2023-12-06T22:29,anon
+19e84134-57b6-11ee-8c99-0242ac120002,Developer Challenge One,Week One - Project Set-up and Database Modeling,2023-10-06T22:29,anon
+19e842a2-57b6-11ee-8c99-0242ac120002,Developer Challenge Two,Week Two - Back-end Development - API Exposure,2023-10-06T22:29,anon
+19e843cc-57b6-11ee-8c99-0242ac120002,Developer Challenge Three,Week Three - Front-end Development with SAP Fiori elements,2023-10-06T22:29,anon
+19e84450-57b6-11ee-8c99-0242ac120002,Developer Challenge Four,Week Four - Integration of Back-end and Front-end,2023-10-06T22:29,anon
