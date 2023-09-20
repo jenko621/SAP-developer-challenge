@@ -84,7 +84,6 @@
       "css": []
     },
     "routing": {
-      "config": {},
       "routes": [
         {
           "pattern": ":?query:",
@@ -135,6 +134,19 @@
                     "route": "QuestionsObjectPage"
                   }
                 }
+              },
+              "content": {
+                "header": {
+                  "actions": {
+                    "controller": {
+                      "press": "fullstackdevchallenge.ext.controller.controller.addQuestions",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "Add Section"
+                    }
+                  }
+                }
               }
             }
           }
@@ -150,6 +162,11 @@
             }
           }
         }
+      }
+    },
+    "extends": {
+      "extensions": {
+        "sap.ui.controllerExtensions": {}
       }
     }
   },
