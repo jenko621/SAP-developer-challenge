@@ -138,8 +138,8 @@
               "content": {
                 "header": {
                   "actions": {
-                    "controller": {
-                      "press": "fullstackdevchallenge.ext.controller.controller.addQuestions",
+                    "AddQuestions": {
+                      "press": "fullstackdevchallenge.ext.addQuestions.AddQuestions.addQuestions",
                       "visible": true,
                       "enabled": true,
                       "requiresSelection": false,

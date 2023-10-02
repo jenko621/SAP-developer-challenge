@@ -1,0 +1,35 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core"
+   xmlns:form="sap.ui.layout.form"
+   core:require="{ handler: 'fullstackdevchallenge/ext/addQuestions/AddQuestions'}">
+   <Dialog
+      id="dialogAddQuestion"
+      title="Questions Count Dilaog">
+      <buttons>
+        <Button 
+            id="idRejectBtn"
+            text="Close"
+            type="Reject"
+            press="handler.onClose"
+        />
+        <Button 
+            text="Submit"
+            type="Accept"
+            press="handler.onSubmit"
+        />
+        </buttons>
+        <form:SimpleForm 
+            id="idSimpleForm"
+            binding="{DevChallengeService.assignQuestionsToTest(...)}">
+            <Label 
+                id="idLabel1"
+                text="Number of Questions"/>
+            <Input 
+                id="idInput"
+                value="{$Parameter/questionsCount}"
+            />
+        </form:SimpleForm>
+      
+   </Dialog>
+</core:FragmentDefinition>
